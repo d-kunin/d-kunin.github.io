@@ -4,7 +4,7 @@
   <title><![CDATA[Code Badger]]></title>
   <link href="http://d-kunin.github.io/atom.xml" rel="self"/>
   <link href="http://d-kunin.github.io/"/>
-  <updated>2016-02-26T16:45:57-08:00</updated>
+  <updated>2016-02-26T17:01:27-08:00</updated>
   <id>http://d-kunin.github.io/</id>
   <author>
     <name><![CDATA[Dzmitry Kunin]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Panes]]></title>
+    <link href="http://d-kunin.github.io/blog/2016/02/26/vim-panes/"/>
+    <updated>2016-02-26T16:52:58-08:00</updated>
+    <id>http://d-kunin.github.io/blog/2016/02/26/vim-panes</id>
+    <content type="html"><![CDATA[<p><code>Ctrl-W, s</code> will create a horizontal split.
+<code>Ctrl-W, v</code> will create a vertical split.
+<code>Ctrl-W, direction</code> will allow you to move among the panes.
+<code>:ls</code> will show your open buffers.
+<code>:b &lt;number&gt;</code> will open the specified buffer in the current pane.</p>
+
+<p>Based on <a href="https://www.quora.com/How-do-I-switch-between-panes-in-split-mode-in-Vim">Quora Answer by Deniel Lo</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Formatting Json Using Command Line Tools]]></title>

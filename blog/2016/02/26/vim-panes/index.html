@@ -5,13 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Formatting Json Using Command Line Tools - Code Badger</title>
+  <title>Vim Panes - Code Badger</title>
   <meta name="author" content="Dzmitry Kunin">
 
   
-  <meta name="description" content="Validate and format clipboard content and then copy the result: 1
-pbpaste | python -m json.tool | pbcopy To provide an input from a file: 1
-cat &lt; &hellip;">
+  <meta name="description" content="Ctrl-W, s will create a horizontal split.
+Ctrl-W, v will create a vertical split.
+Ctrl-W, direction will allow you to move among the panes.
+:ls will &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +21,7 @@ cat &lt; &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools/">
+  <link rel="canonical" href="http://d-kunin.github.io/blog/2016/02/26/vim-panes/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Code Badger" type="application/atom+xml">
@@ -70,7 +71,7 @@ cat &lt; &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Formatting Json Using Command Line Tools</h1>
+      <h1 class="entry-title">Vim Panes</h1>
     
     
       <p class="meta">
@@ -79,28 +80,20 @@ cat &lt; &hellip;">
 
 
 
-<time class='entry-date' datetime='2016-02-26T15:45:41-08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>3:45 pm</span></time>
+<time class='entry-date' datetime='2016-02-26T16:52:58-08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>4:52 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Validate and format clipboard content and then copy the result:</p>
+<div class="entry-content"><p><code>Ctrl-W, s</code> will create a horizontal split.
+<code>Ctrl-W, v</code> will create a vertical split.
+<code>Ctrl-W, direction</code> will allow you to move among the panes.
+<code>:ls</code> will show your open buffers.
+<code>:b &lt;number&gt;</code> will open the specified buffer in the current pane.</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>pbpaste <span class="p">|</span> python -m json.tool <span class="p">|</span> pbcopy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>To provide an input from a file:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>cat &lt;filename&gt; <span class="p">|</span> python -m json.tool
-</span></code></pre></td></tr></table></div></figure>
-
-
-
+<p>Based on <a href="https://www.quora.com/How-do-I-switch-between-panes-in-split-mode-in-Vim">Quora Answer by Deniel Lo</a>.</p>
 </div>
 
 
@@ -116,12 +109,12 @@ cat &lt; &hellip;">
 
 
 
-<time class='entry-date' datetime='2016-02-26T15:45:41-08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>3:45 pm</span></time>
+<time class='entry-date' datetime='2016-02-26T16:52:58-08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>4:52 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/cli-tricks/'>cli tricks</a>, <a class='category' href='/blog/categories/short/'>short</a>
+    <a class='category' href='/blog/categories/short/'>short</a>, <a class='category' href='/blog/categories/vim/'>vim</a>
   
 </span>
 
@@ -130,7 +123,7 @@ cat &lt; &hellip;">
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools/" data-via="" data-counturl="http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://d-kunin.github.io/blog/2016/02/26/vim-panes/" data-via="" data-counturl="http://d-kunin.github.io/blog/2016/02/26/vim-panes/" >Tweet</a>
   
   
   
@@ -139,8 +132,8 @@ cat &lt; &hellip;">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2016/02/26/formatting-json-using-command-line-tools/" title="Previous Post: Formatting json using command line tools">&laquo; Formatting json using command line tools</a>
       
-        <a class="basic-alignment right" href="/blog/2016/02/26/vim-panes/" title="Next Post: Vim Panes">Vim Panes &raquo;</a>
       
     </p>
   </footer>
