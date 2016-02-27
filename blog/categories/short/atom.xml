@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Short | My Octopress Blog]]></title>
   <link href="http://d-kunin.github.io/blog/categories/short/atom.xml" rel="self"/>
   <link href="http://d-kunin.github.io/"/>
-  <updated>2016-02-26T16:00:56-08:00</updated>
+  <updated>2016-02-26T16:03:02-08:00</updated>
   <id>http://d-kunin.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,8 +19,13 @@
     <updated>2016-02-26T15:45:41-08:00</updated>
     <id>http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools</id>
     <content type="html"><![CDATA[<p>Validate and format clipboard content and then copy the result:
-<code>
+<code>bash
 pbpaste | python -m json.tool | pbcopy
+</code></p>
+
+<p>To provide an input from a file:
+<code>bash
+cat &lt;filename&gt; | python -m json.tool
 </code></p>
 ]]></content>
   </entry>

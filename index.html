@@ -10,7 +10,8 @@
 
   
   <meta name="description" content="Validate and format clipboard content and then copy the result: 1
-pbpaste | python -m json.tool | pbcopy ">
+pbpaste | python -m json.tool | pbcopy To provide an input from a file: 1
+cat &lt; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -90,8 +91,16 @@ pbpaste | python -m json.tool | pbcopy ">
 
   <div class="entry-content"><p>Validate and format clipboard content and then copy the result:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>pbpaste | python -m json.tool | pbcopy</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>pbpaste <span class="p">|</span> python -m json.tool <span class="p">|</span> pbcopy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To provide an input from a file:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>cat &lt;filename&gt; <span class="p">|</span> python -m json.tool
+</span></code></pre></td></tr></table></div></figure>
 
 
 

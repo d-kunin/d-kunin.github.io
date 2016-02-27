@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://d-kunin.github.io/atom.xml" rel="self"/>
   <link href="http://d-kunin.github.io/"/>
-  <updated>2016-02-26T16:00:56-08:00</updated>
+  <updated>2016-02-26T16:03:02-08:00</updated>
   <id>http://d-kunin.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,8 +20,16 @@
     <id>http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools</id>
     <content type="html"><![CDATA[<p>Validate and format clipboard content and then copy the result:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>pbpaste | python -m json.tool | pbcopy</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>pbpaste <span class="p">|</span> python -m json.tool <span class="p">|</span> pbcopy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To provide an input from a file:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>cat &lt;filename&gt; <span class="p">|</span> python -m json.tool
+</span></code></pre></td></tr></table></div></figure>
 
 
 
