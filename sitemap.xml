@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools/</loc>
+<lastmod>2016-02-26T15:45:41-08:00</lastmod>
+</url>
+<url>
 <loc>http://d-kunin.github.io/blog/archives/</loc>
 </url>
 <url>
 <loc>http://d-kunin.github.io/</loc>
+</url>
+<url>
+<loc>http://d-kunin.github.io/blog/categories/short/</loc>
+</url>
+<url>
+<loc>http://d-kunin.github.io/blog/categories/cli-tricks/</loc>
 </url>
 </urlset>

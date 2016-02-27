@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://d-kunin.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Cli Tricks | My Octopress Blog]]></title>
+  <link href="http://d-kunin.github.io/blog/categories/cli-tricks/atom.xml" rel="self"/>
   <link href="http://d-kunin.github.io/"/>
   <updated>2016-02-26T16:00:56-08:00</updated>
   <id>http://d-kunin.github.io/</id>
@@ -18,13 +18,10 @@
     <link href="http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools/"/>
     <updated>2016-02-26T15:45:41-08:00</updated>
     <id>http://d-kunin.github.io/blog/2016/02/26/formatting-json-using-command-line-tools</id>
-    <content type="html"><![CDATA[<p>Validate and format clipboard content and then copy the result:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>pbpaste | python -m json.tool | pbcopy</span></code></pre></td></tr></table></div></figure>
-
-
-
+    <content type="html"><![CDATA[<p>Validate and format clipboard content and then copy the result:
+<code>
+pbpaste | python -m json.tool | pbcopy
+</code></p>
 ]]></content>
   </entry>
   
